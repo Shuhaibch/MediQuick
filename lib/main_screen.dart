@@ -4,6 +4,7 @@ import 'package:medi_cart/core/utils/constants/colors.dart';
 import 'package:medi_cart/feature/cart/cart_screen.dart';
 import 'package:medi_cart/feature/category/presentation/screens/category_screen.dart';
 import 'package:medi_cart/feature/home/presentation/screens/home_screen.dart';
+import 'package:medi_cart/feature/profile/profile_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -17,6 +18,7 @@ class _MainScreenState extends State<MainScreen> {
     const HomeScreen(),
     const CategoryScreen(),
     const CartScreen(),
+    const ProfileScreen(),
   ];
 
   int index = 0;
@@ -58,6 +60,10 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: Icon(Iconsax.shopping_bag, size: 25),
             label: 'Cart',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Iconsax.personalcard, size: 25),
+            label: 'Profile',
           ),
         ],
       ),

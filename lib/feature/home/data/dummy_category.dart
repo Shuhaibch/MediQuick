@@ -7,10 +7,13 @@ class Category {
 }
 
 List<Category> categories = [
-  Category(name: 'Diognostic', image: CIMages.diognosisSVGIcon),
-  Category(name: 'Surgical', image: CIMages.sissoresSvgIcon),
-  Category(name: 'Lab Equipment', image: CIMages.microscopeSVGIcon),
-  Category(name: 'Patient Monitoring', image: CIMages.heartSVGIcon),
+  Category(name: 'Medical Devices', image: CIMages.diognosisSVGIcon),
+  Category(
+    name: 'Medical Consumables',
+    image: CIMages.medicalConsumableSVGIcon,
+  ),
+  Category(name: 'Surgical Instruments', image: CIMages.sissoresSvgIcon),
+  Category(name: 'General Consumables', image: CIMages.otherConsumableSVGIcon),
   Category(name: 'Imaging', image: CIMages.monitoringSVGIcon),
   Category(name: 'Therapeutic', image: CIMages.vaccineSVGIcon),
 ];
