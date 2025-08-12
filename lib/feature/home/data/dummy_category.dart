@@ -17,3 +17,16 @@ List<Category> categories = [
   Category(name: 'Imaging', image: CIMages.monitoringSVGIcon),
   Category(name: 'Therapeutic', image: CIMages.vaccineSVGIcon),
 ];
+
+final List<String> imageList = [
+ CIMages.productIMG,
+ CIMages.p1Image,
+ CIMages.p2Image,
+ CIMages.p3Image,
+ CIMages.p4Image,
+ CIMages.p5Image,
+ CIMages.p6Image,
+ CIMages.p7Image,
+ CIMages.p8Image,
+ CIMages.p9Image,
+];

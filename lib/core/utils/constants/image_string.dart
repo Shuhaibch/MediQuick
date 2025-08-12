@@ -26,9 +26,31 @@ class CIMages {
 
   //* Product
   static const String productIMG =
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNLQM9zPShEk8QmJYfXsHu9CwFTqlFkXuzg&s";
+      "https://cdn10.bigcommerce.com/s-p10g1rn/product_images/uploaded_images/shutterstock-414452563-ecg2.jpg?t=1531231548";
   static const String user = "assets/images/user.png";
   static const String loginImage = "assets/icons/login2.svg";
+  static const String p1Image =
+      "https://plus.unsplash.com/premium_photo-1680221452502-e3efca4a16d5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+  static const String p2Image =
+      "https://plus.unsplash.com/premium_photo-1702598529078-b57a2ac82abc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D";
+  static const String p3Image =
+      "https://plus.unsplash.com/premium_photo-1661576435974-0786ff690354?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8";
+  static const String p4Image =
+      "https://plus.unsplash.com/premium_photo-1678310819897-edfe9b9def64?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI0fHx8ZW58MHx8fHx8";
+  static const String p5Image =
+      "https://plus.unsplash.com/premium_photo-1723914040223-1bbb19681f9c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM0fHx8ZW58MHx8fHx8";
+  static const String p6Image =
+      "https://plus.unsplash.com/premium_photo-1661481574026-938f3e515744?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUwfHx8ZW58MHx8fHx8";
+  static const String p7Image =
+      "https://plus.unsplash.com/premium_photo-1723187717117-93c7772572de?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDY0fHx8ZW58MHx8fHx8";
+  static const String p8Image =
+      "https://plus.unsplash.com/premium_photo-1666262811482-b8e0deaa7aaf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwMXx8fGVufDB8fHx8fA%3D%3D";
+  static const String p9Image =
+      "https://plus.unsplash.com/premium_photo-1664375246302-8845ece77ed7?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwMnx8fGVufDB8fHx8fA%3D%3D";
+  static const String p10Image = "";
+  static const String p11Image = "";
+  static const String p12Image = "";
+  static const String p13Image = "";
 
   //* Card
   static const String card1 = "assets/cards/card1.png";

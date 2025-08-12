@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax_flutter/iconsax_flutter.dart';
 import 'package:medi_cart/core/commen/widgets/images/c_rounded_images.dart';
 import 'package:medi_cart/core/utils/constants/colors.dart';
+import 'package:medi_cart/core/utils/constants/image_string.dart';
 import 'package:medi_cart/core/utils/device/device_utility.dart';
 import 'package:medi_cart/feature/home/presentation/screens/search_screen.dart';
 import 'package:medi_cart/feature/home/presentation/widgets/featured_medical_devices_list_card.dart';
@@ -84,8 +85,7 @@ class HomeScreen extends StatelessWidget {
             ),
             SizedBox(height: height * 0.02),
             CRoundedImage(
-              imageUrl:
-                  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNLQM9zPShEk8QmJYfXsHu9CwFTqlFkXuzg&s',
+              imageUrl: CIMages.p2Image,
               isNetworkImage: true,
               width: width,
               fit: BoxFit.cover,

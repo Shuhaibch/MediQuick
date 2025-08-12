@@ -4,6 +4,7 @@ import 'package:medi_cart/core/commen/widgets/layout/grid_layout.dart';
 import 'package:medi_cart/core/commen/widgets/text/section_heading.dart';
 import 'package:medi_cart/core/utils/constants/colors.dart';
 import 'package:medi_cart/core/utils/constants/sizes.dart';
+import 'package:medi_cart/feature/home/data/dummy_category.dart';
 
 class CCategoryTab extends StatelessWidget {
   const CCategoryTab({super.key});
@@ -59,13 +60,11 @@ class CCategoryTab extends StatelessWidget {
 
                     //* like Product List
                     CGridLayout(
-                      itemCount: 10,
+                      itemCount: imageList.length,
                       mainAxisExtent: height * 0.2,
                       itemBuilder: (_, index) => CRoundedImage(
                         showBorder: true,
-                        imageUrl: index % 2 == 0
-                            ? "https://cdn10.bigcommerce.com/s-p10g1rn/product_images/uploaded_images/shutterstock-414452563-ecg2.jpg?t=1531231548"
-                            : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiNLQM9zPShEk8QmJYfXsHu9CwFTqlFkXuzg&s',
+                        imageUrl: imageList[index],
                         isNetworkImage: true,
                         width: width * 0.15,
                         fit: BoxFit.cover,
